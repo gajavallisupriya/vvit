@@ -1,0 +1,46 @@
+.resume{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#imagei,.line{
+    width:50%;
+    /* background: white; */
+     flex-wrap: wrap;
+     text-align: center; 
+    /* border-radius: 5% 0%; */
+}
+#imagei{
+    width: 40%;
+    background-color: wheat;
+    border-radius: 10% 0%;
+    margin: 2%;
+}
+
+@media all and (max-width: 460px){
+    .resume{
+        flex-wrap: wrap;
+    }
+    #imagei{
+        width: 100%;
+        margin-top: 1%;
+    }
+}
+/* media queries for tblet view */
+@media (min-device-width:461px) and (max-device-width:780px){
+
+    #imagei{
+        width: 100%;
+        display: flex;
+    }
+    .sub{
+        margin-right: 12%;
+    }
+    img{
+        margin-left: 4%;
+        border-radius: 50%;
+    }
+}

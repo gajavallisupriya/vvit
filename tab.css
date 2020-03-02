@@ -1,0 +1,25 @@
+.sheet{
+    width:100%;
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+
+}
+.slide1,.slide2{
+    width:100%;
+     background-color: orange; 
+    margin:1em;
+    padding-top: 1em;
+    display:flex;
+    flex-wrap: wrap;
+    text-align:center;
+}
+.data{
+    padding-right: 10em;
+}
+/* img{
+    border-radius: 50%;
+}
+@media  (min-device-width:461px) and (max-device-width:780px){
+    
+    
+} */

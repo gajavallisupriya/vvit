@@ -1,0 +1,22 @@
+{
+    "basics":{
+        "name":"supriya",
+        "role":"fresher",
+        "email":"supriya6168@gamil.com",
+        "mobile":"+9325476532",
+        "education":[
+            {
+                "degree":"SSC",
+                "percentage":97
+            },
+            {
+                "degree":"INTER",
+                "percentage":96.9
+            },
+            {
+                "degree":"B-Tech",
+                "percentage":97
+            }
+        ]
+    }
+}
